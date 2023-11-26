@@ -1,0 +1,13 @@
+.dropdown {
+  position: relative;
+  button {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+    align-items: center;
+  }
+  button.drop-btn:hover,
+  button.drop-btn.active {
+    color: red !important;
+  }
+}

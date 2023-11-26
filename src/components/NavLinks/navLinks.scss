@@ -1,0 +1,25 @@
+li {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  a:hover {
+    color: var(--color);
+    border-color: var(--color);
+  }
+  a {
+    text-transform: capitalize;
+    color: #000;
+    padding-bottom: 1px;
+    border-bottom: 1px solid transparent;
+    transition: 0.2s ease-in-out;
+  }
+  span {
+    pointer-events: none;
+    font-size: 24px;
+  }
+}
+
+a.active {
+  color: var(--color);
+  border-color: var(--color);
+}

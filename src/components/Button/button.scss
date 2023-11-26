@@ -1,0 +1,29 @@
+button {
+  width: 90px;
+  cursor: pointer;
+  height: 30px;
+  border-radius: 1900px;
+  border: 1px solid transparent;
+  background: var(--color-hover);
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+
+button.trans {
+  background: transparent;
+  color: black;
+  border-radius: 0px;
+  border: 0px;
+}
+
+button.ghost,
+button:hover {
+  background: transparent;
+  border-color: var(--color);
+  color: black;
+}
+button.ghost:hover {
+  background: var(--color-hover);
+  border: transparent;
+  color: white;
+}
